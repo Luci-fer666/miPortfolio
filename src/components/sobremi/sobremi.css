@@ -1,0 +1,9 @@
+.contendor_trescolum{
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulointerno{
+    color: #880a17;
+}

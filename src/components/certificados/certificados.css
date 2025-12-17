@@ -1,0 +1,9 @@
+.certificados{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulointerno{
+    color: #880a17;
+}

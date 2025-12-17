@@ -1,0 +1,20 @@
+footer{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.columna{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

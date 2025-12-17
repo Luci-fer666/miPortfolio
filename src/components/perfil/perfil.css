@@ -1,0 +1,7 @@
+.perfil{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.titulointerno{
+    color: #880a17;
+}

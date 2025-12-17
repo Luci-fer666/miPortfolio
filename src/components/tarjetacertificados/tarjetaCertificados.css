@@ -1,0 +1,7 @@
+.certificado{
+    grid-column: span 1;
+}
+.portada{
+    height: 250px;
+    width: 100%;
+}
