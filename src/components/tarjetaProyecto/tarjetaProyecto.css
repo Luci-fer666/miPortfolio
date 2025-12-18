@@ -4,20 +4,20 @@
     gap: 12px;
     padding: 9px;
     margin: 15px;
-    background-color: #848484;
+    background-color: #020617;
     border-radius: 10px;
     align-items: center;
     grid-column: span 2;
 }
-
-/* CONTENEDOR DE LA IMAGEN */
 .imagen {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: #848484;
 }
 
-/* IMAGEN */
 .portada {
     width: 90%;
     max-width: 600px;
@@ -30,7 +30,6 @@
     transform: scale(1.03);
 }
 
-/* TEXTO */
 .titulo {
     margin: 0;
     text-align: center;
@@ -41,7 +40,6 @@
     text-align: center;
 }
 
-/* TECNOLOGÍAS */
 .tecnologias {
     display: flex;
     flex-wrap: wrap;

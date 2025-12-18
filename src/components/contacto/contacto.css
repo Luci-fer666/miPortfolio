@@ -1,4 +1,3 @@
-/* CONTENEDOR GENERAL */
 .contacto {
   min-height: 50vh;
   width: 100%;
@@ -10,18 +9,16 @@
   color: #ffffff;
 }
 
-/* TÍTULO */
 .titulo-contacto {
-  font-size: 2.6rem;
+  font-size: 3rem;
   margin-bottom: 2.5rem;
   font-weight: 600;
-  color: #ffffff;
+  color: #880a17;
 }
 
-/* FORMULARIO */
 .formulario-contacto {
   width: 100%;
-  max-width: 420px;
+  max-width: 800px;
   background-color: #020617;
   padding: 2.2rem;
   border-radius: 14px;
@@ -30,21 +27,16 @@
   gap: 1.5rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
-
-/* CAMPOS */
 .campo {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-
-/* LABELS */
 .campo label {
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   color: #cbd5e1;
 }
 
-/* INPUTS Y TEXTAREA */
 .campo input,
 .campo textarea {
   width: 100%;
@@ -52,7 +44,7 @@
   font-size: 1rem;
   border-radius: 10px;
   border: 1px solid #1e293b;
-  background-color: #0f172a;
+  background-color: #192639;
   color: #ffffff;
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
@@ -63,18 +55,16 @@
   min-height: 120px;
 }
 
-/* FOCUS */
 .campo input:focus,
 .campo textarea:focus {
   border-color: #848484;
   box-shadow: 0 0 0 2px rgba(132, 132, 132, 0.35);
 }
 
-/* BOTÓN */
 .boton-enviar {
   margin-top: 1rem;
   padding: 0.85rem;
-  font-size: 1.05rem;
+  font-size: 2rem;
   font-weight: 600;
   border-radius: 12px;
   border: none;
@@ -94,7 +84,6 @@
   transform: translateY(0);
 }
 
-/* RESPONSIVE */
 @media (max-width: 480px) {
   .titulo-contacto {
     font-size: 2.1rem;
