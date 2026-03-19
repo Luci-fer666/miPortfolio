@@ -1,13 +1,16 @@
 import React from "react"
-
+import "./Inicio.css"
 import Perfil from "../perfil/perfil.jsx"
 import Certificados from "../certificados/certificados.jsx"
+import Carrousel from "../carrusel/carrusel.jsx"
 
 function Inicio(){
-    return(
-        <div className="inicio">
-            <Perfil/>
-            <Certificados/>
+    return(<div>
+        <Carrousel/>
+            <div className="inicio">
+                <Perfil/>
+                <Certificados/>
+            </div>
         </div>
     )
 }

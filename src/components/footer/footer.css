@@ -1,20 +1,30 @@
 footer{
     background-color: black;
-    height: 70vh;
-    width: 100vw;
+    min-height: 70vh;
+    width: 100%;     
 }
-.piedepagina{
+.piedepagina {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+    box-sizing: border-box;
 }
-.columna{
-    text-align: center;
+.columna {
     display: flex;
     flex-direction: column;
-    margin-top: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 100px;
+    gap: 10px;
+    text-align: center;
+    align-items: center; /* importante */
+}
 
-
+@media (max-width: 768px) {
+    .piedepagina {
+        flex-direction: column;
+        gap: 24px;
+    }
 }

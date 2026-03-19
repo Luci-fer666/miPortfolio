@@ -1,9 +1,24 @@
-.certificados{
+.certificados {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-left: auto;
-    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+    margin-bottom: 80px;
 }
 .titulointerno{
     color: #880a17;
+}
+@media (max-width: 900px) {
+    .certificados {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .certificados {
+        grid-template-columns: 1fr;
+    }
 }

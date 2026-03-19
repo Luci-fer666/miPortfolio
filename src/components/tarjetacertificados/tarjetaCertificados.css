@@ -1,7 +1,14 @@
 .certificado{
     grid-column: span 1;
 }
-.portada{
-    height: 250px;
+.portada {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* mantiene proporción y recorta */
+    display: block;
+}
+.imagencertficiado {
+    width: 100%;
+    aspect-ratio: 4 / 3; /* podés usar 1/1 si querés cuadrado */
+    overflow: hidden;
 }

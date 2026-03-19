@@ -27,13 +27,31 @@ function Carrousel(){
 
                     <div className="item">
                         <a href='https://luci-fer666-hermanos-jota-sping-7-8-nu.vercel.app/productos'>
-                            <img src="/docs/carrousel/hermanos.jpg" alt="Portada" className="carousel_img"/>
+                            <img src="/docs/carrousel/grogutech.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
                     <div className="item">
                         <a href='https://cyberfest-lovat.vercel.app'>
-                            <img src="/docs/carrousel/cyberfest.jpg" alt="Portada" className="carousel_img"/>
+                            <img src="/docs/carrousel/medicalm.jpeg" alt="Portada" className="carousel_img"/>
+                        </a>
+                    </div>
+
+                    <div className="item">
+                        <a href='https://game-hub-solidario.vercel.app'>
+                            <img src="/docs/carrousel/artbook.jpeg" alt="Portada" className="carousel_img"/>
+                        </a>
+                    </div>
+
+                    <div className="item">
+                        <a href='https://game-hub-solidario.vercel.app'>
+                            <img src="/docs/carrousel/hermanos.jpg" alt="Portada" className="carousel_img"/>
+                        </a>
+                    </div>
+
+                    <div className="item">
+                        <a href='https://game-hub-solidario.vercel.app'>
+                            <img src="/docs/carrousel/Screenshot1.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
@@ -44,12 +62,15 @@ function Carrousel(){
                     </div>
 
                     <div className="item">
-                        <img src="/docs/carrousel/egresados.jpg" alt="Portada" className="carousel_img"/>
+                        <a href='https://game-hub-solidario.vercel.app'>
+                            <img src="/docs/carrousel/cyberfest.jpg" alt="Portada" className="carousel_img"/>
+                        </a>
                     </div>
 
                     <div className="item">
-                        <img src="/docs/carrousel/dibujo.jpg" alt="Portada" className="carousel_img"/>
+                        <img src="/docs/carrousel/egresados.jpg" alt="Portada" className="carousel_img"/>
                     </div>
+
                 </div>
 
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">

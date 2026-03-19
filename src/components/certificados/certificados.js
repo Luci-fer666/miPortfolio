@@ -2,6 +2,9 @@ const certificados = [
     { nombre : "Full Stack ITBA",
         imagen : "/docs/cert_image/ITBA_FullStack.png"
     },
+    { nombre : "Programador",
+        imagen : "/docs/cert_image/programadoranual.jpg"
+    },
     { nombre : "Python Unahur",
         imagen : "/docs/cert_image/Python_Unahur.jpg"
     },

@@ -18,7 +18,7 @@ function Footer()
                 </div>
 
                 <div className="columna">
-                    <a href="www.linkedin.com/in/luciano-illuminati">Linkeind</a>
+                    <a href="https://www.linkedin.com/in/luciano-illuminati">Linkeind</a>
                     <a href="https://github.com/Luci-fer666">Github</a>
                 </div>
             </div>

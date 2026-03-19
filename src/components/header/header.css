@@ -1,5 +1,9 @@
-/* CONTENEDOR GENERAL */
+
 .header {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; 
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +11,7 @@
     padding: 32px 20px;
 }
 
-/* TEXTO PRINCIPAL */
+
 .encabezado {
     text-align: center;
 }
@@ -26,23 +30,22 @@
     font-weight: 400;
 }
 
-/* NAVEGACIÓN */
+
 .navegacion {
     display: flex;
     gap: 28px;
 }
 
-/* LINKS */
 .link {
     position: relative;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #848484;
     padding: 4px 0;
     transition: color 0.25s ease;
 }
 
-/* SUBRAYADO SUAVE */
+
 .link::after {
     content: "";
     position: absolute;
@@ -65,7 +68,9 @@
 /* RESPONSIVE */
 @media (max-width: 600px) {
     .navegacion {
-        gap: 18px;
+        flex-wrap: wrap;      /* evita overflow */
+        justify-content: center;
+        gap: 12px;
     }
 
     .titulo {
