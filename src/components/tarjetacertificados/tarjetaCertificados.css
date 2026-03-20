@@ -1,14 +1,40 @@
-.certificado{
+.certificado {
     grid-column: span 1;
 }
+
 .portada {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* mantiene proporción y recorta */
+    object-fit: cover;
     display: block;
+    cursor: pointer;
 }
+
 .imagencertficiado {
     width: 100%;
-    aspect-ratio: 4 / 3; /* podés usar 1/1 si querés cuadrado */
+    aspect-ratio: 4 / 3;
     overflow: hidden;
+}
+
+/* Overlay */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+/* Imagen grande */
+.popup-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
 }

@@ -26,31 +26,31 @@ function Carrousel(){
                     </div>
 
                     <div className="item">
-                        <a href='https://luci-fer666-hermanos-jota-sping-7-8-nu.vercel.app/productos'>
+                        <a href='https://grogutech.netlify.app'>
                             <img src="/docs/carrousel/grogutech.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
                     <div className="item">
-                        <a href='https://cyberfest-lovat.vercel.app'>
+                        <a href='https://medicalm-analitycs.netlify.app'>
                             <img src="/docs/carrousel/medicalm.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
                     <div className="item">
-                        <a href='https://game-hub-solidario.vercel.app'>
+                        <a href='https://lucifer-artbook.vercel.app'>
                             <img src="/docs/carrousel/artbook.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
                     <div className="item">
-                        <a href='https://game-hub-solidario.vercel.app'>
+                        <a href='https://hermanos-jota-ecomerce.netlify.app'>
                             <img src="/docs/carrousel/hermanos.jpg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
 
                     <div className="item">
-                        <a href='https://game-hub-solidario.vercel.app'>
+                        <a href='https://github.com/Luci-fer666/Formula-Resolvente-Python-TKINTER'>
                             <img src="/docs/carrousel/Screenshot1.jpeg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
@@ -62,7 +62,7 @@ function Carrousel(){
                     </div>
 
                     <div className="item">
-                        <a href='https://game-hub-solidario.vercel.app'>
+                        <a href='https://cyberfest-lovat.vercel.app'>
                             <img src="/docs/carrousel/cyberfest.jpg" alt="Portada" className="carousel_img"/>
                         </a>
                     </div>
