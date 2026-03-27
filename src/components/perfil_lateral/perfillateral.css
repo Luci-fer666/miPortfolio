@@ -35,3 +35,26 @@ transition:opacity .4s ease;
 .profile-image:hover .img-hover{
 opacity:1;
 }
+
+.boton-enviar {
+  margin-top: 1rem;
+  padding: 0.85rem;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #848484;
+  color: #020617;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.boton-enviar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(132, 132, 132, 0.4);
+  opacity: 0.95;
+}
+
+.boton-enviar:active {
+  transform: translateY(0);
+}

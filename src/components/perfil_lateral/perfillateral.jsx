@@ -16,6 +16,10 @@ function PerfilLateral(){
                         <a href="www.linkedin.com/in/luciano-illuminati">Linkeind</a>
                         <br></br>
                         <a href="https://github.com/Luci-fer666">Github</a>
+                        <br></br>
+                        <a href="/docs/Luciano Illuminati.pdf" target="_blank" rel="noopener noreferrer">
+                            <button  className="boton-enviar" >Mi Curriculum</button>
+                        </a>
                     </nav>
                 </div>
             </aside>
